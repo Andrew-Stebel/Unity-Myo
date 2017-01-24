@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &117976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 492552}
+  - 114: {fileID: 11480246}
+  m_Layer: 0
+  m_Name: MyoInteractibles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &492552
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 117976}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11480246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 117976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f67d3ff7b03543aaa8372f6a69d02cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeGestureList: 
+  primaryMyoController:
+    myo: {fileID: 0}
+    activeGestureList: 
+    lastGesture: 0
+    meanAccelerometer: {x: 0, y: 0, z: 0}
+    correctedAccelerometer: {x: 0, y: 0, z: 0}
+    correctedImpulse: {x: 0, y: 0, z: 0}
+    impulse: {x: 0, y: 0, z: 0}
+    dampedCorrectedVelocity: {x: 0, y: 0, z: 0}
+    dampedCorrectedAcceleration: {x: 0, y: 0, z: 0}
+    spinYawThreshold: .449999988
+    spinRollThreshold: .449999988
+    spinPitchThreshold: .449999988
+    raiseThresholdUp: .5
+    raiseThresholdDown: .5
+    spinAbritraryThreshold: .649999976
+    leftImpulseThreshold: -.5
+    rightImpulseThreshold: .5
+    forwardImpulseThreshold: .5
+    backwardImulseThreshold: -.5
+    arbitraryImpulseThreshold: .75
+    rollVelocity: 0
+    smoothedRollVelocity: 0
+    rollImpulse: 0
+    meanOrientationX: 0
+    meanOrientationY: 0
+    meanOrientationZ: 0
+    orientationSpeedX: 0
+    orientationSpeedY: 0
+    orientationSpeedZ: 0
+    correctedOrientation: {x: 0, y: 0, z: 0}
+  leftHanded: 0
+  gestureControllers: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 117976}
+  m_IsPrefabParent: 1

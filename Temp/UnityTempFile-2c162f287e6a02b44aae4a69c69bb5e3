@@ -1,0 +1,230 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_5_0
+-define:UNITY_5_5
+-define:UNITY_5
+-define:UNITY_64
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VIDEO
+-define:ENABLE_VR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:UNITY_TEAM_LICENSE
+-define:CROSS_PLATFORM_INPUT
+"Assets/Myo Samples/Scripts/ColorBoxByPose.cs"
+"Assets/Myo Samples/Scripts/JointOrientation.cs"
+"Assets/Myo Samples/Scripts/SampleSceneGUI.cs"
+Assets/Myo/Scripts/Myo.NET/EventTypes.cs
+Assets/Myo/Scripts/Myo.NET/Hub.cs
+Assets/Myo/Scripts/Myo.NET/Myo.cs
+Assets/Myo/Scripts/Myo.NET/Pose.cs
+Assets/Myo/Scripts/Myo.NET/Properties/AssemblyInfo.cs
+Assets/Myo/Scripts/Myo.NET/Quaternion.cs
+Assets/Myo/Scripts/Myo.NET/Vector3.cs
+Assets/Myo/Scripts/Myo.NET/libmyo.cs
+Assets/Myo/Scripts/MyoBindings.cs
+Assets/Myo/Scripts/MyoIOSManager.cs
+Assets/Myo/Scripts/ThalmicHub.cs
+Assets/Myo/Scripts/ThalmicMyo.cs
+Assets/Myo/Utils/MiniJSON.cs
+Assets/MyoInteractibles/Demo/Scripts/Door.cs
+Assets/MyoInteractibles/Demo/Scripts/GestureToggleObject.cs
+Assets/MyoInteractibles/Demo/Scripts/MyoInteractiblesConsole.cs
+Assets/MyoInteractibles/Demo/Scripts/MyoInteractiblesDemoScene.cs
+Assets/MyoInteractibles/Demo/Scripts/MyoPickupObject.cs
+Assets/MyoInteractibles/Demo/Scripts/PunchableBall.cs
+"Assets/MyoInteractibles/Demo/Standard Assets/Cameras/Scripts/AbstractTargetFollower.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Cameras/Scripts/AutoCam.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Cameras/Scripts/FreeLookCam.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Cameras/Scripts/HandHeldCam.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Cameras/Scripts/LookatTarget.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Cameras/Scripts/PivotBasedCameraRig.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Characters/RollerBall/Scripts/Ball.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Environment/Water (Basic)/Scripts/WaterBasic.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Environment/Water/Water/Scripts/Displace.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Environment/Water/Water/Scripts/GerstnerDisplace.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Environment/Water/Water/Scripts/MeshContainer.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Environment/Water/Water/Scripts/PlanarReflection.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Environment/Water/Water/Scripts/Water.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/ActivateTrigger.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/AutoMobileShaderSwitch.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/AutoMoveAndRotate.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/CameraRefocus.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/CurveControlledBob.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/DragRigidbody.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/DynamicShadowSettings.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/FOVKick.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/FPSCounter.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/FollowTarget.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/ForcedReset.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/LerpControlledBob.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/ObjectResetter.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/ParticleSystemDestroyer.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/PlatformSpecificContent.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/SimpleActivatorMenu.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/SimpleMouseRotator.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/SmoothFollow.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/TimedObjectActivator.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/TimedObjectDestructor.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/WaypointCircuit.cs"
+"Assets/MyoInteractibles/Demo/Standard Assets/Utility/WaypointProgressTracker.cs"
+Assets/MyoInteractibles/Graphing/MyoInteractiblesGraph.cs
+Assets/MyoInteractibles/Scripts/BWFilter.cs
+"Assets/MyoInteractibles/Scripts/Character Controllers/MyoThirdPersonCharacter.cs"
+"Assets/MyoInteractibles/Scripts/Character Controllers/MyoThirdPersonUserControl.cs"
+Assets/MyoInteractibles/Scripts/Examples/BasketBall.cs
+Assets/MyoInteractibles/Scripts/Examples/MyoDoorknob.cs
+Assets/MyoInteractibles/Scripts/Examples/MyoTurnableSwitch.cs
+Assets/MyoInteractibles/Scripts/Examples/PullableLever.cs
+Assets/MyoInteractibles/Scripts/GestureEvent.cs
+Assets/MyoInteractibles/Scripts/GestureRecipe.cs
+Assets/MyoInteractibles/Scripts/GestureRecipeInstance.cs
+Assets/MyoInteractibles/Scripts/MultiGestureEvent.cs
+Assets/MyoInteractibles/Scripts/MyoActor.cs
+Assets/MyoInteractibles/Scripts/MyoCursor.cs
+Assets/MyoInteractibles/Scripts/MyoCursor2.cs
+Assets/MyoInteractibles/Scripts/MyoGestureController.cs
+Assets/MyoInteractibles/Scripts/MyoInteractibles.cs
+Assets/MyoInteractibles/Scripts/MyoInteractiblesCursor.cs
+Assets/MyoInteractibles/Scripts/MyoTriggeredObject.cs
+Assets/MyoInteractibles/Scripts/SingleGestureEvent.cs
+Assets/MyoInteractibles/Scripts/Util.cs
+Assets/SampleScenes/Menu/Scripts/EventSystemChecker.cs
+Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs
+Assets/SampleScenes/Menu/Scripts/PauseMenu.cs
+Assets/SampleScenes/Menu/Scripts/ReturnToMainMenu.cs
+Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs
+Assets/SampleScenes/Scripts/CameraSwitch.cs
+Assets/SampleScenes/Scripts/LevelReset.cs
+Assets/SampleScenes/Scripts/ParticleSceneControls.cs
+Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs
+Assets/SampleScenes/Scripts/SlowMoButton.cs
+"Assets/Scripts/Level 1/Effects.cs"
+"Assets/Scripts/Level 1/WallPlateform.cs"
+"Assets/Scripts/Level 2/MovingPlatform.cs"
+"Assets/Scripts/Level 2/SettingsLever.cs"
+"Assets/Scripts/Level 2/WallWind.cs"
+"Assets/Scripts/Level 2/WindEffects.cs"
+"Assets/Scripts/Level 3/BoardBoat.cs"
+"Assets/Scripts/Level 3/BoatMechanics.cs"
+"Assets/Scripts/Level 3/ButtonPuzzle.cs"
+"Assets/Scripts/Level 3/Cleanup.cs"
+"Assets/Scripts/Level 3/EnableFence.cs"
+"Assets/Scripts/Level 3/JumpReset.cs"
+"Assets/Scripts/Level 3/Ladder.cs"
+"Assets/Scripts/Level 3/OnLift.cs"
+"Assets/Scripts/Level 3/PlayerDrown.cs"
+"Assets/Scripts/Level 3/Pulley.cs"
+"Assets/Scripts/Level 3/PunchWall.cs"
+"Assets/Scripts/Level 3/PushBlock.cs"
+Assets/Scripts/LightFlicker.cs
+Assets/Scripts/MyoScripting/MyoBoatMechanics.cs
+Assets/Scripts/MyoScripting/MyoCarryObject.cs
+Assets/Scripts/MyoScripting/MyoDoor.cs
+Assets/Scripts/MyoScripting/MyoDoorSwitch.cs
+Assets/Scripts/MyoScripting/MyoGateLever.cs
+Assets/Scripts/MyoScripting/MyoLever.cs
+Assets/Scripts/MyoScripting/MyoLeverPit.cs
+Assets/Scripts/MyoScripting/MyoLift.cs
+Assets/Scripts/MyoScripting/MyoLightSwitch.cs
+Assets/Scripts/MyoScripting/MyoObjectListener.cs
+Assets/Scripts/MyoScripting/MyoPulley.cs
+Assets/Scripts/MyoScripting/MyoPunchWall.cs
+Assets/Scripts/MyoScripting/MyoPushBlock.cs
+Assets/Scripts/MyoScripting/MyoSettingsLever.cs
+Assets/Scripts/MyoScripting/MyoSwing.cs
+Assets/Scripts/MyoScripting/MyoValve.cs
+Assets/Scripts/MyoScripting/MyoWallFanLever.cs
+Assets/Scripts/SystemCode.cs
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity
